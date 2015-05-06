@@ -3,23 +3,27 @@
     <image class="imgProfile" height="150" width="150"  src="{{posts.image_profile}}" />
   </div>
   <div class="nom">
-    <h1>
-      {{posts.first_name}} {{posts.name}}
-      <small>
-        <address>
-          {{posts.adress}}
-        </address>
-      </small>
+    <h1><b style="font-size: 44px" class="text-warning">{{posts.first_name}} {{posts.name}}</b>
     </h1>
   </div>
 </span>
 <br/>
 <br/>
-<div class="introduce"><h4>{{posts.introduce}}
-</h4></div>
+<div class="introduce"><h3>{{posts.introduce}}
+</h3></div>
+<br/>
+<div class="introduce"><h2 class="text-primary">
+  <small>
+    <address>
+      {{posts.presentation}}
+    </address>
+  </small>
+</h2></div>
+<br/>
+<br/>
 
 
-<!--<div ng-repeat="education in posts.education">
-  <h4>{{education.year}}</h4> :<h5>{{education.name}} <small>{{education.spec}}</small></h5></div>-->
+
+<!---->
 
 

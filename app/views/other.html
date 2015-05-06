@@ -1,0 +1,38 @@
+</br>
+
+<h4><b>Computer science experience</b></h4>
+  <table class="table table-bordered table-hover">
+    <tr class="success ">
+      <td><small><b>Operating system</b></small></td>
+      <td>{{posts.computer_science_experience.operating_system}}</td>
+    </tr>
+    <tr class="success">
+      <td><small><b>Data Base</b></small></td>
+      <td>{{posts.computer_science_experience.database}}</td>
+    </tr>
+    <tr class="success ">
+      <td><small><b>Internet</b></small></td>
+      <td>{{posts.computer_science_experience.internet}}</td>
+    </tr>
+    <tr class="success ">
+      <td><small><b>Programming languages</b></small></td>
+      <td>{{posts.computer_science_experience.programming_languages}}</td>
+    </tr>
+  </table>
+
+
+  <h4><b>Language Skills</b></h4>
+  <table class="table table-bordered table-hover">
+    <tr class="danger "  ng-repeat="lang in posts.language_skills">
+      <td><small><b>{{lang.language}}</b></small></td>
+      <td>{{lang.level}}</td>
+    </tr>
+  </table>
+
+<h4><b>Community involvement</b></h4>
+<table class="table table-bordered table-hover">
+  <tr class="warning "  ng-repeat="inv in posts.community_Involvement">
+    <td><small><b>{{inv.subject}}</b></small></td>
+    <td>{{inv.role}}</td>
+  </tr>
+</table>
